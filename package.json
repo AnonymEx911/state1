@@ -1,0 +1,36 @@
+{
+    "name": "wixcore.net",
+    "version": "1.0.0",
+    "description": "Ready to go backend development starter for RAGE multiplayer.",
+    "main": "index.js",
+    "author": "ua.lifesheets@wixcore.net",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch packages --watch client_packages --exec \"./ragemp-server.exe\"",
+        "build": "npm run build:handlers && npm run build:interface",
+        "build:interface": "cd interface && npm run build",
+        "build:handlers": "cd handlers && npm run build",
+        "postbuild": "WixCore ✔ All Build success!"
+    },
+    "dependencies": {
+        "mysql": "^2.18.1",
+        "mysql2": "^3.2.0",
+        "nodemailer": "^6.9.1",
+        "sequelize": "^6.29.3",
+        "webhook-discord": "^3.7.8"
+    },
+    "devDependencies": {
+        "@types/ragemp-c": "github:wixcore/types-ragemp-c#v2.0",
+        "@types/ragemp-s": "github:wixcore/types-ragemp-s#v1.0",
+        "nodemon": "^2.0.15"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wixcore/staterp"
+    },
+    "bugs": {
+        "url": "https://github.com/wixcore/staterp/issues"
+    },
+    "homepage": "https://github.com/wixcore/staterp#readme"
+}

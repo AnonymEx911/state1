@@ -1,0 +1,19 @@
+{
+	"maxplayers": 100,
+	"name": "WixCore | Commercial product | wixcore.net/discord [VOICE][ROLEPLAY][CLOSED]",
+	"url": "https://wixcore.net/",
+	"gamemode": "roleplay",
+	"language": "ru",
+	"stream-distance": 250.0,
+	"csharp": "disabled",
+	"enable-nodejs": true,
+	"resources-compression-level": -9,
+	"announce": false,
+	"encryption": false,
+	"bind": "127.0.0.1",
+	"port": 22000,
+	"voice-chat": true,
+	"voice-chat-sample-rate": 48000,
+	"allow-cef-debugging": false,
+	"api-threading-debugging": false
+}

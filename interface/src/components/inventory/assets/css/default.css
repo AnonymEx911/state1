@@ -1,0 +1,1126 @@
+.bgForDrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url('//staterp.wixcore.net/exports/inventory/inv-box.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.inv-box {
+    flex-direction: row-reverse;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.inventory-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.inv-row-main {
+    display: flex;
+}
+
+.player-inv {
+    width: 43.148vh;
+    height: 65.648vh;
+    margin-right: 1.241vh;
+}
+
+.player-info {
+    width: 27.778vh;
+    height: 62.963vh;
+}
+
+.player-craft {
+    width: 43.148vh;
+    height: 65.648vh;
+}
+
+.title-inv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 5.370vh;
+    position: relative;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.title-secondary-inv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 5.4vh;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -5vh;
+}
+
+.liner-secondary-inv {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background: url('//staterp.wixcore.net/exports/inventory/liner.png') no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-right: auto;
+    margin-top: -32px;
+    margin-bottom: -2px;
+}
+
+.liner-inv {
+    background: url('//staterp.wixcore.net/exports/inventory/liner.png') no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-left: auto;
+    margin-top: -8px;
+    margin-bottom: -2px;
+}
+
+.liner-inv-info {
+    background: url('//staterp.wixcore.net/exports/inventory/liner.png') no-repeat;
+    width: 201px;
+    height: 9px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: -1px;
+}
+
+.object-inv-box {
+    overflow: auto;
+    height: 75vh;
+    width: 41.667vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.204vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain !important;
+    background: url('//staterp.wixcore.net/exports/inventory/frame.png');
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-attachment: local;
+}
+
+.object-box {
+    width: 7.407vh;
+    height: 7.407vh;
+    background: #DADADA1A;
+    margin-bottom: 0.926vh;
+    margin-right: 0.926vh;
+}
+
+.linearbar-inv {
+    position: absolute;
+    height: 100%;
+    background: #00000042;
+    transition: 1s linear;
+    z-index: -1;
+}
+
+.object-box:hover {
+    background: #DC133B40 url('//staterp.wixcore.net/exports/inventory/object-box.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.obj-inf-box {
+    height: 1.9vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 7.407vh;
+    top: -0.5vh;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.obj-inf-title {
+    font-family: "Gotham Pro Regular";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.7vh;
+    width: 7.407vh;
+    text-align: center;
+}
+
+.obj-inf-weight {
+    font-family: "Gotham Pro Regular";
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    opacity: 0;
+}
+
+.player-title-info {
+    height: 60px;
+    font-family: "Gotham Pro Regular";
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.outf-cap {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/hat.png') no-repeat;
+    width: 62px;
+    height: 51px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 74px;
+}
+
+.outf-glasses {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/glasses.png') no-repeat;
+    width: 72px;
+    height: 22px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 215px;
+}
+
+.outf-mask {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/mask.png') no-repeat;
+    width: 52px;
+    height: 64px;
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 40px;
+}
+
+.outf-shirt {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/shirt.png') no-repeat;
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 134px;
+}
+
+.outf-jewerly {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/jewerly.png') no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 259px;
+}
+
+.outf-earrings {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/earrings.png') no-repeat;
+    width: 48px;
+    height: 62px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 42px;
+}
+
+.outf-jeans {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/pants.png') no-repeat;
+    width: 66px;
+    height: 142px;
+    position: absolute;
+    margin-top: 232px;
+    margin-left: 152px;
+}
+
+.outf-watch {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/watch.png') no-repeat;
+    width: 36px;
+    height: 72px;
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 272px;
+}
+
+.outf-bracelet {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/bracelet.png') no-repeat;
+    width: 34px;
+    height: 56px;
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 52px;
+}
+
+.outf-bag {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/bag.png') no-repeat;
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    margin-top: 321px;
+    margin-left: 259px;
+    background-size: contain;
+}
+
+.outf-boot {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/shoes.png') no-repeat;
+    width: 75px;
+    height: 53px;
+    position: absolute;
+    margin-top: 391px;
+    margin-left: 146px;
+}
+
+/* .outf-clock {
+    background: url(../img/outfit/circular-clock-tool.png) no-repeat;   || https://staterp.wixcore.net/exports/inventory/outfit/
+    width: 51px;
+    height: 51px;
+    margin-left: 18px;
+} */
+
+.outf-armour {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/armour.png') no-repeat;
+    width: 51px;
+    height: 51px;
+    margin-left: 18px;
+    background-size: contain;
+}
+
+.outf-phone {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/phone.png') no-repeat;
+    width: 31px;
+    height: 55px;
+    margin-left: 47px;
+}
+
+.outf-money {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/notes.png') no-repeat;
+    width: 55px;
+    height: 41px;
+    margin-left: 48px;
+}
+
+.outf-card {
+    background: url('//staterp.wixcore.net/exports/inventory/outfit/card.png') no-repeat;
+    width: 55px;
+    height: 41px;
+    margin-left: 41px;
+}
+
+.outfit-player-box {
+    display: flex;
+    height: 50.000vh;
+    background-position: center;
+    flex-direction: column;
+}
+
+.item__background {
+    background: #DADADA1A;
+    height: 7.407vh;
+    width: 7.407vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__background img {
+    width: 5.926vh;
+    height: 5.926vh;
+}
+
+.outfit-pos-outfit-hat {
+    position: absolute;
+    margin-left: 10.602vh;
+}
+
+.outfit-pos-outfit-glasses {
+    position: absolute;
+    margin-left: 0.926vh;
+}
+
+.outfit-pos-outfit-earrings {
+    position: absolute;
+    margin-left: 10.602vh;
+    margin-top: 37.037vh;
+}
+
+.outfit-pos-outfit-pants {
+    position: absolute;
+    margin-left: 10.602vh;
+    margin-top: 18.519vh;
+}
+
+.outfit-pos-outfit-bag {
+    position: absolute;
+    margin-left: 20.370vh;
+    margin-top: 27.778vh;
+}
+
+.outfit-pos-outfit-gloves {
+    position: absolute;
+    margin-left: 0.926vh;
+    margin-top: 37.037vh;
+}
+
+
+.outfit-pos-outfit-watch {
+    position: absolute;
+    margin-top: 27.778vh;
+    margin-left: 0.926vh;
+}
+
+.outfit-pos-outfit-bracelet {
+    position: absolute;
+    margin-left: 0.926vh;
+    margin-top: 18.519vh;
+}
+
+.outfit-pos-outfit-shoes {
+    position: absolute;
+    margin-left: 10.602vh;
+    margin-top: 27.778vh;
+}
+
+.outfit-pos-outfit-jewerly {
+    position: absolute;
+    margin-left: 0.926vh;
+    margin-top: 9.259vh;
+}
+
+.outfit-pos-outfit-mask {
+    position: absolute;
+    margin-left: 20.370vh;
+}
+
+.outfit-pos-outfit-shirt {
+    position: absolute;
+    margin-left: 10.602vh;
+    margin-top: 9.259vh;
+}
+
+.outfit-pos-outfit-armour {
+    position: absolute;
+    margin-left: 17.778vh;
+    margin-top: -37.037vh;
+}
+
+.outfit-pos-outfit-phone {
+    position: absolute;
+    margin-left: 10.185vh;
+    margin-top: -27.778vh;
+}
+
+.outfit-pos-outfit-notes {
+    position: absolute;
+    margin-left: -7.315vh;
+    margin-top: 0px;
+}
+
+.outfit-pos-outfit-card {
+    position: absolute;
+    margin-left: -5.000vh;
+    margin-top: -9.259vh;
+}
+
+.bottom-otf-box {
+    margin-top: auto;
+    height: 7.407vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.315vh 0 2.593vh;
+}
+
+.use-outfit {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(230deg) brightness(107%) contrast(100%);
+}
+
+.use-outfit:hover {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.main-for-squar-box {
+    margin-top: 8px;
+    display: flex;
+}
+
+.squar-inv-box {
+    width: 68px;
+    height: 68px;
+    background: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.squar-inv-box:not(:last-child) {
+    margin-right: 8px;
+}
+
+.menu-craft-change {
+    display: flex;
+    margin-top: 1.5vh;
+    justify-content: space-around;
+    padding: 0vh 2vh 0vh 2vh;
+}
+
+.btn-craft {
+    width: 16.519vh;
+    height: 4.630vh;
+    display: flex;
+    justify-content: center;
+    background: #afafaf73;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0.5vh;
+}
+
+.btn-craft__text {
+    font-family: 'Gotham Pro Regular';
+    font-size: 1vh;
+}
+
+input[type="radio"]:checked+label.btn-craft {
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 0.2vh solid #DC133B;
+}
+
+input[type="radio"]:checked+label .bg-color-craft-block {
+    filter: brightness(0) saturate(100%);
+}
+
+.img-btn-weapon {
+    background: url('//staterp.wixcore.net/exports/inventory/gun.png') no-repeat;
+    width: 60px;
+    height: 42px;
+}
+
+.img-btn-cutter {
+    background: url('//staterp.wixcore.net/exports/inventory/cutter.png') no-repeat;
+    width: 44px;
+    height: 44px;
+}
+
+.weapon-player-equip {
+    height: 28.37vh;
+    width: 43.148vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    color: #fff;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.style-serial-weapon {
+    font-family: "Gotham Pro Regular";
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8vh;
+    margin-top: 6.3vh;
+}
+
+.craft-player-sp .style-weapon-txt-craft {
+    margin-bottom: 33px;
+    height: 4.815vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.7vh;
+    width: inherit;
+    margin-left: auto;
+    border: 0.1vh solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.6vh;
+    padding: 0.4vh 0.8vh 0.4vh 0.8vh;
+}
+
+.style-weapon-txt-craft__wname {
+    font-family: 'Gotham Pro Medium';
+    font-size: 0.9vh;
+    position: absolute;
+    margin-top: -3.2vh;
+}
+
+.style-weapon-txt-craft {
+    height: 7.407vh;
+    display: flex;
+    background-color: #DADADA1A !important;
+    justify-content: center;
+    flex-direction: column;
+    width: 15.833vh;
+    border-radius: 0.4vh;
+    background-position: center !important;
+    background-size: 15vh !important;
+    padding: 0.4vh 0.8vh 0.4vh 0.8vh;
+}
+
+.style-weapon-txt-craft__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.2vh;
+    margin-bottom: 0.5vh;
+}
+
+.style-weapon-txt-craft:hover {
+    background-color: rgb(255, 255, 255, 0.102);
+}
+
+.weapon-player-equip__container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2vh 0 2vh;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.weapon-player-equip__select {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: transparent;
+    opacity: 0;
+    position: absolute;
+}
+
+.weapon-player-equip__select_selected {
+    display: block;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 50%;
+    background: #DC133B;
+    position: absolute;
+    margin: 0 0 5.5vh 15.5vh;
+}
+
+.liner-weapon-crafting {
+    width: 20.5%;
+    height: 8px;
+    background: #48b9f2;
+}
+
+.box-img-equip-weapon {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-img-equip-weapon__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 13px;
+}
+
+.box-img-equip-weapon__hint {
+    font-family: 'Gotham Pro Regular';
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.weapon-m41 {
+    background: url('//staterp.wixcore.net/exports/inventory/weapons/m41.png') no-repeat;
+    width: 252px;
+    height: 79px;
+}
+
+.selected-weapon {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    background-size: 190px !important;
+    background-position: center !important;
+}
+
+.main-box-craft-weapon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2vh;
+}
+
+.square-box-craft-weapon {
+    width: 6.5vh;
+    height: 6.5vh;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0.01vh solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.5vh;
+    margin-right: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.weapon-mod-active {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 6.5vh;
+    height: 6.5vh;
+    background-size: 5vh !important;
+    background-position: center !important;
+    transition: 1s;
+}
+
+.weapon-mod {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 6.5vh;
+    height: 6.5vh;
+    background-size: 5vh !important;
+    background-position: center !important;
+    filter: brightness(400%) contrast(20%);
+    opacity: 0.3;
+}
+
+.weapon-mod-active:hover {
+    transform: scale(1.1);
+}
+
+.weapon-supressor {
+    background: url('//staterp.wixcore.net/exports/inventory/weapons/supressor.png') no-repeat;
+}
+
+.weapon-flashlight {
+    background: url('//staterp.wixcore.net/exports/inventory/weapons/flashlight.png') no-repeat;
+}
+
+.weapon-grip {
+    background: url('//staterp.wixcore.net/exports/inventory/weapons/grip.png') no-repeat;
+}
+
+.weapon-scope {
+    background: url('//staterp.wixcore.net/exports/inventory/weapons/scope.png') no-repeat;
+}
+
+.sqr-wp-top {
+    margin-top: 1.759vh;
+    margin-bottom: 1.759vh;
+}
+
+.cheked-crafting {
+    width: 350px;
+    height: 137px;
+    background-color: rgb(255, 255, 255, 0.102);
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fail {
+    background: url('//staterp.wixcore.net/exports/inventory/fail.png') no-repeat;
+    width: 71px;
+    height: 72px;
+}
+
+.img-succes {
+    background: url('//staterp.wixcore.net/exports/inventory/succes.png') no-repeat;
+    width: 71px;
+    height: 71px;
+}
+
+.crafting-object-main {
+    width: inherit;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.liner-crafting-obj {
+    width: 0%;
+    margin-right: auto;
+    height: 0.5vh;
+    background: #DC133B;
+    transition: 2s;
+    z-index: 5;
+    border-radius: 0.2vh;
+}
+
+.liner-crafting-obj-bg {
+    height: 0.5vh;
+    width: 32.5vh;
+    position: absolute;
+    background: #DADADA1A;
+    margin-left: 5.35vh;
+    border-radius: 0.2vh;
+}
+
+.craft-btn-obj {
+    padding: 0.9vh 1.6vh 0.9vh 1.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vh;
+    color: #fff;
+    transition: 0.3s;
+    background: #afafaf73;
+    border-radius: 0.5vh;
+    font-family: 'Gotham Pro Regular';
+}
+
+.craft-btn-obj:hover {
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 0.2vh solid #DC133B;
+}
+
+.craft-btn-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 2vh 0 2vh;
+}
+
+.craft-btn-obj:first-child {
+    margin-right: 2vh;
+}
+
+.craft-help-menu {
+    width: 50px;
+    height: 47px;
+    background: rgb(73, 184, 241);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "HACKED";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.close-window-craft {
+    min-height: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    transition: 0.1s ease-out;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(126, 126, 126, 0.28);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    opacity: 0;
+}
+
+.close-window-craft:hover {
+    background: rgba(0, 0, 0, 0.28);
+}
+
+.trunk-boxes-main {
+    width: 82px;
+}
+
+.trunk-box {
+    width: 62px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 9px;
+    padding: 0 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.trunk-box:hover {
+    background: #48b9f2;
+}
+
+.invetory-trunk {
+    height: 64.259vh;
+    margin-right: 0.5vh;
+}
+
+.invetory-trunk .weight-title-inv {
+    margin-left: 9vh;
+    margin-top: 0.2vh;
+}
+
+.content-inventory {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.trunk-info-menu {
+    width: 43.148vh;
+    height: 66.259vh;
+    overflow: auto;
+    margin-top: 5.5vh;
+}
+
+.inventory__trunk__list {
+    overflow: auto;
+    height: 75vh;
+    width: 41.667vh;
+    display: flex;
+    margin-left: 1.204vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain !important;
+    background: url('//staterp.wixcore.net/exports/inventory/frame.png');
+    flex-wrap: wrap;
+    background-attachment: local;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.object-box-trunk {
+    width: 7.407vh;
+    height: 7.407vh;
+    background: #DADADA1A;
+    margin-bottom: 0.926vh;
+    margin-right: 0.926vh;
+}
+
+.object-box-trunk:hover {
+    background: #DC133B40 url('//staterp.wixcore.net/exports/inventory/object-box.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.color-blue-btn {
+    position: sticky;
+    top: 0px;
+    margin-top: -30px;
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.color-blue-btn:hover {
+    filter: brightness(0) invert(100%);
+}
+
+.squar-inv-box:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    width: 68px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.102);
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.obj-inf-count {
+    font-family: "Gotham Pro Regular";
+    color: #ffffff;
+    font-size: 0.8vh;
+    width: 2vh;
+    display: flex;
+    height: 2vh;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: -7.8vh;
+    left: 5.4vh;
+    justify-content: center;
+}
+
+.weight-title-inv {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gotham Pro Regular';
+    position: relative;
+    margin-top: 0.944vh;
+}
+
+.weight-title-inv h1 {
+    opacity: 0.1;
+    font-size: 4.444vh;
+}
+
+.weight-title-inv span.kg {
+    position: absolute;
+    width: 10vh;
+    display: flex;
+    margin-top: 1.5vh;
+    font-size: 2.037vh;
+    justify-content: center;
+    margin-left: -0.2vh;
+}
+
+.weight-title-inv p.yellow {
+    color: #DC133B;
+    font-weight: 600;
+}
+
+.title-inv__name {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 1.204vh;
+    margin-left: 0.537vh;
+    position: relative;
+    font-weight: 700;
+}
+
+.player-craft .title-inv__name {
+    margin-right: 7.8vh;
+}
+
+.invetory-trunk .title-inv__name {
+    margin-bottom: 2.3vh;
+}
+
+.title-inv__name h1 {
+    opacity: 0.1;
+    font-size: 4.444vh;
+}
+
+.title-inv__name p {
+    position: absolute;
+    font-size: 2.222vh;
+    margin-top: -4.2vh;
+    margin-left: 0.5vh;
+    border-bottom: 0.185vh solid #DC133B;
+    white-space: nowrap;
+}
+
+.headinv .title-inv__name p {
+    color: #fff;
+    font-size: 2.222vh;
+}
+
+.headinv p {
+    color: #FFFFFF4D;
+    font-size: 1.2vh;
+}
+
+.headinv {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    width: 25.833vh;
+    left: 5vh;
+    top: 2vh;
+}
+
+.moveall_left {
+    background: url('//staterp.wixcore.net/exports/inventory/moveall.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 10px;
+}
+
+.moveall_right {
+    background: url('//staterp.wixcore.net/exports/inventory/moveall.svg') no-repeat;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    display: none;
+}
+
+.moveall_right:hover,
+.moveall_left:hover {
+    filter: brightness(0) saturate(100%) invert(59%) sepia(82%) saturate(454%) hue-rotate(169deg) brightness(97%) contrast(96%);
+}
+
+.craft-player-sp {
+    padding: 1.8vh 3.6vh 1vh 4vh;
+    font-family: "Gotham Pro Regular";
+    font-size: 2vh;
+    color: #fff;
+    overflow: auto;
+    height: 44.444vh;
+}
+
+.craft-one-sp {
+    height: 20vh;
+    width: inherit;
+    font-family: "RobotoBold";
+    font-size: 2vh;
+    color: #fff;
+    overflow: auto;
+    text-align: center;
+
+}
+
+.style-for-craft-btn {
+    margin-top: 0px;
+}
+
+.style-recipes-txt-craft {
+    padding: 0 2vh 0 2vh;
+    height: 18.519vh;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: column;
+}
+
+.style-recipes-txt-craft__name {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.8vh;
+    margin-top: 1.8vh;
+}
+
+.text-dd-ss-kk {
+    font-family: "RobotoBold";
+    font-size: 20px;
+    color: #fff;
+    margin-top: 27px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.style-serial-recipes {
+    font-family: "Gotham Pro Regular";
+    color: #fff;
+    font-size: 1.2vh;
+    margin-top: 0.5vh;
+    white-space: pre-line;
+}
+
+.style-serial-rec-o {
+    font-family: "Gotham Pro Regular";
+    color: #fff;
+    font-size: 0.9vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.select-craft {
+    opacity: 1;
+}
+
+.null {
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
